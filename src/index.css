@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply text-2xl border-black border-2 rounded-full py-3 px-60 font-Poppins font-semibold bg-slate-300 hover:scale-110;
+  }
+}
